@@ -1,0 +1,8 @@
+body{
+    margin:0px;
+   }
+.bg{
+    background-image: url(stars.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    }

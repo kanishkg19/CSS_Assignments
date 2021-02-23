@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta name="author" content="Kanishk" />
+        <meta name="keywords" content="css assignment"/>
+        
+        <style>
+            @font-face { font-family: DancingScript; src: url("DancingScript.ttf");}
+            body{
+                margin: 0%;
+                background-image: url(stars.jpg);
+                background-repeat: no-repeat;
+                background-size:cover;
+                color: floralwhite;
+            }
+            .fig{
+                float: left;
+                margin-right: 0%;
+                height: 700px;
+            }
+            .frm{
+                background-color: rgb(2, 0, 22);
+                float: right;
+                height: 700px;
+                margin-top: 115px;
+                margin-right: 355px;
+                margin-left: 0px;
+                padding-left: 60px;
+                padding-right: 150px;
+
+                 }
+                    input{
+                     width: 100%;
+                     padding:15px 0px;
+                     padding-right: 227px;
+                     margin: 8px 0;
+                     box-sizing: border-box;
+                     border: none;
+                     border-bottom: 2px solid  rgb(3, 95, 3);
+                     background-color:rgb(2, 0, 22) ;
+                     color: floralwhite;
+                     font-size: 15px;
+                     
+                    }
+                    form>h1{
+                        font-family: DancingScript;
+                        font-weight: 398;
+                        font-size: 38px;
+                        color: floralwhite;
+                        text-decoration: underline;
+                        text-decoration-color:rgb(3, 95, 3);
+                        padding: 5px 20px;
+                    }
+                    .b1{
+                        background-color: rgb(3, 95, 3);
+                        border-radius: 10px;
+                        color:floralwhite ;
+                        margin-left: 25px;
+                        margin-top: 60px;
+                        padding:10px 30px;
+                    }
+                    a{
+                
+                        font-size: 18px;
+                    }
+                    a:link {
+                            padding-left: 60px;
+                            text-decoration:underline;color:floralwhite;
+                           }
+
+                    a:visited {
+                      text-decoration: none;color: rgb(3, 95, 3);
+                               }
+
+                    a:hover {
+                     text-decoration:none;color: rgb(3, 95, 3);;
+                            } 
+
+                    a:active {
+                     text-decoration: underline;
+            
+                            }
+            </style>
+    </head>
+    <body>
+    <div>
+        <figure class="fig">
+            <img src="bitcoin.jpg" alt="bitcoin" style="height: 700px ; margin-top: 100px; margin-left: 431.75px;padding-right:0px;margin-right: 0px;">
+        </figure>
+        <form action="" method="POST" class="frm">
+            <h1>Create Account : </h1>
+            <label></label>
+            <input type="text" name="name" placeholder="&nbsp;Your Name" required/>
+            <br><br>
+            <label></label>
+            <input type="text" placeholder="&nbsp;E-Mail id" required/>
+            <br><br>
+            <label></label> 
+            <input type="tel" maxlength="10" minlength="10" name="phone" placeholder="&nbsp;Contact no. (Optional)"/>
+            <br><br>
+            <label></label>
+            <input type="password" name="password" placeholder="&nbsp;Password" required/>
+            <br><br>
+            <label></label>
+            <input type="password" name="password" placeholder="&nbsp;Confirm Password" required/>
+            <br><br>
+            <button type="submit" class="b1">SIGNUP NOW</button>
+            <a href="">I have an account</a>
+            </form>
+    </div>
+       
+    </body>
+</html>
